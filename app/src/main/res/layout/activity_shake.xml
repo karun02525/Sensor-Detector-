@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shake Detection app using Accelerometer"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/tvX"
+        android:textColor="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="X Value"
+        android:textSize="30sp"
+        android:gravity="center" />
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvY"
+        android:textColor="#9C27B0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Y Value"
+        android:textSize="30sp"
+        android:gravity="center" />
+    <TextView
+        android:layout_margin="10dp"
+        android:id="@+id/tvZ"
+        android:textColor="#009688"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Z Value"
+        android:textSize="30sp"
+        android:gravity="center" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
